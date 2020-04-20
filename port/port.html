@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Porfolio Site</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.css"/>
+  <link rel="stylesheet" href="main.css">
+  
+</head>
+<body>
+  <header>
+    <div class="menu-toggler">
+      <div class="bar half start"></div>
+      <div class="bar"></div>
+      <div class="bar half end"></div>
+  </div>
+<nav class="top-nav">
+  <ul class="nav-list">
+      <li>
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li>
+        <a class="nav-link" href="#portfolio">Projects</a>
+      </li>
+      <!-- <li>
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>  -->  
+
+  </ul> 
+</nav>
+<div class="landing-text">
+  <h1>Ivan Lo</h1>
+  <h6>Jr Software Developer</h6>
+</div>
+</header>
+
+          <section class ="about" id="about">
+            <div class="container">
+              <div class="profile-img">
+                <img src="pic1.jpg" alt="">
+              </div>
+              <div class="about-details">
+                <div class="about-heading">
+                  <h1>About</h1>
+                  <h6>Myself</h6>
+                </div>
+                <p>
+                  A Jr Software Developer with a determination to learn more and experience different techniques and skills.
+                   Have demonstrated problem solving skills and is able to communicate effectively with others. 
+                   Has been expose to multiple languages during time at SAIT’s Object Oriented Software Development program.
+                  Is willing and eager to learn new things and experience new challenges and enjoy them whenever they arise.
+
+                </p>
+                <div class="social-media">
+                  <ul class="nav-list">
+                    <li>
+                      <a href="https://www.linkedin.com/in/ivan-lo-243925168/" class="icon-Link">
+                          <i class="fab fa-linkedin"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/Ivan-Lo" class="icon-Link">
+                          <i class="fab fa-github-square"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          <section class="portfolio" id="portfolio">
+            <div class="container">
+              <div class="section-heading">
+                <h1>Projects</h1>
+                <h6>View some of my recent projects</h6>
+              </div>
+              <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right">
+                  <img src="/images/powerbill.jpg" alt="">
+                </div>
+                <div class="portfolio-description">
+                  <h6>C# stuff</h6>
+                  <h1>Power Bill</h1>
+                  <p>
+                    A C# Application calculating the power bill for customers depending on the category chosen by the amount of kwh. 
+                  </p>
+                  <a href="https://github.com/Ivan-Lo/C-Applications/tree/master/PowerBill%20with%20Unit%20Tests/CPRG200LAB1IVAN" class="cta">View Code</a>
+                </div>
+              </div>
+
+              <div class="portfolio-item">
+                <div class="portfolio-description has-margin-right">
+                  <h6>ASP stuff</h6>
+                  <h1>Temp</h1>
+                  <p>
+                    An ASP.Net application that can convert the desired temperature to Farenheit, Kelvin or Celsius from user input.
+                  </p>
+                  <a href="https://github.com/Ivan-Lo/ASP-/tree/master/Temperature-Ivan/Templab1-Ivan" class="cta">View Code</a>
+                </div>
+                <div class="portfolio-img has-margin-right">
+                  <img src="/images/temp1.jpg" alt="">
+                </div>
+              </div>
+              <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right">
+                  <img src="/images/contact.jpg" alt="">
+                </div>
+                <div class="portfolio-description">
+                  <h6>HTML stuff</h6>
+                  <h1>Contacts</h1>
+                  <p>
+                    A sample Contact page that utilizes modals to display contact information
+                  </p>
+                  <a href="https://github.com/Ivan-Lo/Html-proj/blob/master/contactswithmodal.html" class="cta">View Code</a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="contact" id="contact">
+            <div class="container">
+              <!--
+              <div class="section-heading">
+                <h1>Contact</h1>
+                <h6>Ask Me!</h6>
+              </div>
+              <form action="">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="Enter your email..." required>
+                <label for="subject">Subject:</label>
+                <textarea name="subject" id="subject cols="10" rows="10"></textarea>
+                <input type="submit" value="Submit">
+              </form>
+              -->
+          </section>
+          <footer class="copyright">
+            <div class="up" id="up">
+              <i class="fas fa-chevron-up" onclick="topFunction()"></i>
+            </div>
+            <p>&copy; 2019 Ivan Lo</p>
+          </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
